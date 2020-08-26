@@ -1,8 +1,4 @@
-trigger:
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
-- '*'
+
 
 pool:
   vmImage: 'ubuntu-16.04'
